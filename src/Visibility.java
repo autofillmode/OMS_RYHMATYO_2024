@@ -1,2 +1,2 @@
-public class Visibility {
+public abstract class Visibility {
 }

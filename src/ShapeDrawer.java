@@ -1,2 +1,2 @@
-public class ShapeDrawer extends Drawing {
+public class ShapeDrawer extends Drawing <ShapeDrawer> {
 }

@@ -1,2 +1,2 @@
-public class Drawing {
+public abstract class Drawing <T> {
 }
