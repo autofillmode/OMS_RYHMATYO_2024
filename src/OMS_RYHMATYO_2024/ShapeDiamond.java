@@ -5,7 +5,7 @@ import java.text.DecimalFormat;
 public class ShapeDiamond implements ShapeSpecial, CanBeColored {
     private double a = 2.0;
     private double b = 2.0;
-    static DecimalFormat df2;
+    private static DecimalFormat df2;
     private String color = "No color";
 
     ShapeDiamond()

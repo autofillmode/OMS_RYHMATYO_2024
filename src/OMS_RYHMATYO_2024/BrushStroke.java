@@ -4,8 +4,8 @@ import java.util.Random;
 import java.util.random.RandomGenerator;
 
 public class BrushStroke extends Visibility implements ShapeBasic, CanBeColored{
-    int thickness;
-    String color = "Yellow";
+    private int thickness;
+    private String color = "Yellow";
 
     BrushStroke()
     {

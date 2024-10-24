@@ -6,32 +6,31 @@ public class AdapterMain {
 
     public static void main(String[] Args)
     {
-        //        ShapeDrawer sd = new ShapeDrawer();
-        //        Rectangle rect = new Rectangle();
-        //        rect.changeVisibility();
-        //        Rectangle rect2 = new Rectangle();
-        //        Circle circle = new Circle();
-        //        Circle circle2 = new Circle();
-        //        circle2.changeVisibility();
-        //        Rectangle rect3 = new Rectangle();
-        //        sd.addBasicShape(rect);
-        //        sd.addBasicShape(rect2);
-        //        sd.addBasicShape(circle);
-        //        sd.addBasicShape(circle2);
-        //        sd.addBasicShape(rect3);
-        //
-        //        sd.draw();
-        //        sd.grow();
-        //        sd.showVisibility();
-
         ShapeDrawer sd = new ShapeDrawer();
         Rectangle rect = new Rectangle();
+        rect.changeVisibility();
         Rectangle rect2 = new Rectangle();
-        rect2.changeVisibility();
         Circle circle = new Circle();
         Circle circle2 = new Circle();
         circle2.changeVisibility();
         Rectangle rect3 = new Rectangle();
+        sd.addBasicShape(rect);
+        sd.addBasicShape(rect2);
+        sd.addBasicShape(circle);
+        sd.addBasicShape(circle2);
+        sd.addBasicShape(rect3);
+        sd.draw();
+        sd.grow();
+        sd.showVisibility();
+
+        ShapeDrawer sd2 = new ShapeDrawer();
+        Rectangle rect4 = new Rectangle();
+        Rectangle rect5 = new Rectangle();
+        rect2.changeVisibility();
+        Circle circle3 = new Circle();
+        Circle circle4 = new Circle();
+        circle2.changeVisibility();
+        Rectangle rect6 = new Rectangle();
         Triangle triangle = new Triangle("Other color");
         ShapeAdapter triangleAd = new ShapeAdapter(triangle);
         ShapeDiamond diamond  = new ShapeDiamond("PURPLE");
@@ -54,24 +53,24 @@ public class AdapterMain {
         BrushStroke stroke3 = new BrushStroke();
         stroke3.setColor("RED");
 
-        sd.addBasicShape(rect);
-        sd.addBasicShape(rect2);
-        sd.addBasicShape(circle);
-        sd.addBasicShape(circle2);
-        sd.addBasicShape(rect3);
-        sd.addBasicShape(triangleAd);
-        sd.addBasicShape(diamondAd);
-        sd.addBasicShape(diamond2Ad);
-        sd.addBasicShape(diamond3Ad);
-        sd.addBasicShape(triangle2Ad);
-        sd.addBasicShape(diamond4Ad);
-        sd.addBasicShape(stroke);
-        sd.addBasicShape(stroke2);
-        sd.addBasicShape(stroke3);
+        sd2.addBasicShape(rect4);
+        sd2.addBasicShape(rect5);
+        sd2.addBasicShape(circle3);
+        sd2.addBasicShape(circle4);
+        sd2.addBasicShape(rect6);
+        sd2.addBasicShape(triangleAd);
+        sd2.addBasicShape(diamondAd);
+        sd2.addBasicShape(diamond2Ad);
+        sd2.addBasicShape(diamond3Ad);
+        sd2.addBasicShape(triangle2Ad);
+        sd2.addBasicShape(diamond4Ad);
+        sd2.addBasicShape(stroke);
+        sd2.addBasicShape(stroke2);
+        sd2.addBasicShape(stroke3);
 
 
-        sd.draw();
-        sd.grow();
-        sd.showVisibility();
+        sd2.draw();
+        sd2.grow();
+        sd2.showVisibility();
     }
 }

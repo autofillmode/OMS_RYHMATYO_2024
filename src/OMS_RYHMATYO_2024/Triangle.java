@@ -7,7 +7,7 @@ public class Triangle implements ShapeSpecial,CanBeColored {
     private double a = 3.0;
     private double b = 3.0;
     private double c = 3.0;
-    static DecimalFormat df2;
+    private static DecimalFormat df2;
     private String color = "No color";
 
     Triangle()
